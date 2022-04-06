@@ -2,10 +2,7 @@ terraform {
     required_version = "> 0.12.0"
 # The below section if not specified the terraform.tfstate file is created in current directory of your machine.
  backend "azurerm" {
- storage_account_name = "demostorg"
- container_name = "demo"
- key = "terraform.tfstate"
- access_key = "ISyWl3Oxv2fVnTFgQubm/iRwWvz0YM6skPaottSRGQN3geNUU0aO7fzNL+7MuusUi1GCgasjhDrz+5ZX15V8aw=="
+ 
   }
 }
 
